@@ -27,4 +27,6 @@ In the first stage the Bot is providing following information:
     
 2. Start the conversation, have a small talk, ask the Bot how it is feeling... When you are ready, use "help" to see            what it can do.
     
-    
+###### Additional Information ######
+
+Screen shots of the platform and the work are posted under : BE4KBot_IPAAS_screenshots folder.
