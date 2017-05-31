@@ -5,6 +5,7 @@ The BE4K Bot was conceived to assist Cisco and Partner sales teams in positionin
 Built using the API.AI platform for up front NLP of queries and Webhook calls into built.io for fulfillment of the more complex tasks using node.js, the BE4K bot can easily be extended to cover more queries and back-end notifications to to guarantee it is providing the most accurate and up to date information.
 
 ###### Scope of the repository #######
+
 The files with the JSON are made to be imported in API.ai. This is a live script that can be used to create an agent that captures the informaiton from the requester through Cisco Spark. BE4K bot can be added to any room or used directly in 1:1 space. 
 Node.JS script is complementary to enable some of the actions on the side of the agent since the NLP platform lacks that functional.
 
@@ -16,5 +17,11 @@ In the first stage the Bot is providing following information:
 5. GVE services: 
     - Create a simple preliminary BoM
     - Customer Engagement - schedule an engineer to attend a call on named date and time
+    
+###### Instructions for the User ######
+1. add the Bot on Cisco Spark to one of the rooms where you wish to have the conversation:  BE4K@sparkbot.io
+    1.1 In case it is a 1:1 room feel free talking to the Bot
+    1.2 In case you are not alone with the Bot, you will need to address the Bot every time you are asking it something. It         is shy... Use @BE4K to address the Bot.
+    2. Start the conversation, have a small talk, ask the Bot how it is feeling... When you are ready, use "help" to see            what it can do.
     
     
