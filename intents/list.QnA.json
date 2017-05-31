@@ -1,0 +1,96 @@
+{
+  "userSays": [
+    {
+      "id": "0104a622-a619-4f91-a41a-16af80973738",
+      "data": [
+        {
+          "text": "Where can I find an ordering guide?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03bc5c28-3303-4da4-981b-10697dd23dbc",
+      "data": [
+        {
+          "text": "Is there an Ordering Guide?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8a4389e-0abf-4bc0-b3c7-bc27433bb7b1",
+      "data": [
+        {
+          "text": "Is there an FaQ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73e78998-e28c-4819-b72c-60e915dba422",
+      "data": [
+        {
+          "text": "Where can I find the Q\u0026A?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "552c94a9-dca4-4f2a-870b-01483dc9f547",
+      "data": [
+        {
+          "text": "Provide a link to "
+        },
+        {
+          "text": "BE4K",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": true
+        },
+        {
+          "text": " Frequently Asked Questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d78072e4-87d9-4def-bcb0-047899660731",
+  "name": "list.QnA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@Platform",
+          "name": "Platform",
+          "value": "$Platform",
+          "prompts": [
+            "For which platform?"
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

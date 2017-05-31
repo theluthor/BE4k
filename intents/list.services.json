@@ -1,0 +1,94 @@
+{
+  "userSays": [
+    {
+      "id": "4037c9b4-8d7e-4590-8787-ef588ddf5b14",
+      "data": [
+        {
+          "text": "I need a sales engineer to help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd9b95e6-22fc-4d72-8e5c-1849245e043c",
+      "data": [
+        {
+          "text": "Can i get an engineer to support me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34b6811c-3b5b-4f41-aa09-5b0b7b0f4d66",
+      "data": [
+        {
+          "text": "I need support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "217f9800-92b9-4b0d-b380-1079b560955a",
+      "data": [
+        {
+          "text": "Obtain additional "
+        },
+        {
+          "text": "pre-sales",
+          "alias": "Organization",
+          "meta": "@Organization",
+          "userDefined": false
+        },
+        {
+          "text": " support from "
+        },
+        {
+          "text": "GVE",
+          "alias": "Organization1",
+          "meta": "@Organization",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "433b4e29-54c9-401d-8015-d849727bcfa0",
+  "name": "list.services",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Organization",
+          "name": "Organization",
+          "value": "$Organization",
+          "isList": false
+        },
+        {
+          "dataType": "@Organization",
+          "name": "Organization1",
+          "value": "$Organization1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

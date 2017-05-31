@@ -1,0 +1,58 @@
+{
+  "userSays": [
+    {
+      "id": "7e87cc47-655c-47b8-84c1-1f8ba417268b",
+      "data": [
+        {
+          "text": "option "
+        },
+        {
+          "text": "4",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10188098-4a84-4e1d-a93f-942ffcb31978",
+      "data": [
+        {
+          "text": "4",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "660c1f2b-4cc4-4090-a3b5-7087ca99a44d",
+  "parentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting - Option No 4 - list.alternative",
+  "auto": true,
+  "contexts": [
+    "Greeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "-For a cloud based solutions in countries where it is supported: Spark Call (https://www.ciscospark.com/products/spark-call.html)\n-For an on-premise voice focused solution based on a Cisco Integrated Services Router: Cisco Communications Manager Express (http://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-express/index.html)\n-For an on-premise full collaboration (voice/video/conferencing/edge traversal/contact center/messaging) with the option to integrate with Spark message/meet in the cloud: Cisco Business Edition 6000 (http://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html)"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

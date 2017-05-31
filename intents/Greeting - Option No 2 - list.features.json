@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "0e750540-6cd1-416e-a9d0-234c176a16ed",
+      "data": [
+        {
+          "text": "option 2"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db5de5f2-1d3f-43fd-8050-a57553c7a801",
+      "data": [
+        {
+          "text": "2"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3114629b-bf99-4cf9-8b02-ccdf7b762751",
+  "parentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting - Option No 2 - list.features",
+  "auto": true,
+  "contexts": [
+    "Greeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "- Stacking/clustering BE4Ks are not recommended.\n- BE4K does not support third-party SIP phones today.\n- Video phones, DXs are not supported today. Support for 8845/65 phones is estimated for early June 2017. \n- 8821 wireless phones are on the roadmap.\n- Jabber Phone Mode is not supported today. Estimated Nov 2017.\n- No roadmap for Spark integration.\n- No roadmap for customer care via integration with UCCX/UCCE/PCCE.\n- VG202/204 analog gateways are not supported.\n- ATA190 for analog FXS line support will be supported in June/July\n- BE4k does not yet have the concept of a dial-plan and multiple trunks to route the calls in different ways. It is focused on single site needs, with a single trunk group."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,78 @@
+{
+  "userSays": [
+    {
+      "id": "b8df9cae-9cb2-459c-84c8-48977a2abb66",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "c81e4bde-40ce-438d-a7e5-b02e59027cc3",
+  "parentId": "2528af50-b76a-4800-a16c-3fec99bce7fa",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "service.BoM.menu.option1",
+  "auto": true,
+  "contexts": [
+    "Greeting-OptionNo5-OptionNo1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom.Greeting-OptionNo5-custom.Greeting-OptionNo5-OptionNo1-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "nFXS_ports",
+          "value": "$nFXS_ports",
+          "prompts": [
+            "How many FXS ports do you need?"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "nPSTN_ports",
+          "value": "$nPSTN_ports",
+          "prompts": [
+            "How many PSTN (E1/T1) ports?"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@Phones",
+          "name": "Model_Phones1",
+          "value": "$Model_Phones1",
+          "prompts": [
+            "Which phone model?"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "nAmount_Phones",
+          "value": "$nAmount_Phones",
+          "prompts": [
+            "How many phones would you need?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lets summarize: we will create a bill of materials for BE4K with $nFXS_ports FXS ports and $nPSTN_ports E1/T1 PSTN ports. The offer will be for $nAmount_Phones of $Model_Phones1 Cisco IP Phones."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,402 @@
+{
+  "userSays": [
+    {
+      "id": "e4ec7b94-4052-462b-b879-5dbb0ef3e4d9",
+      "data": [
+        {
+          "text": "Can I use "
+        },
+        {
+          "text": "3rd",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " party "
+        },
+        {
+          "text": "phones",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4436d3d6-5914-42fb-919e-b86bb59bb722",
+      "data": [
+        {
+          "text": "Can I use "
+        },
+        {
+          "text": "third",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "-party "
+        },
+        {
+          "text": "phones",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d15c213d-1e4a-41dd-999c-a120c6b3b8e1",
+      "data": [
+        {
+          "text": "Are "
+        },
+        {
+          "text": "third",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "-party "
+        },
+        {
+          "text": "phones",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2eae68ba-934b-48a0-b5b4-806b6df56ce9",
+      "data": [
+        {
+          "text": "Are "
+        },
+        {
+          "text": "3rd",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " party "
+        },
+        {
+          "text": "phones",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f39103e-ae9a-44fa-a65f-49356e4a259d",
+      "data": [
+        {
+          "text": "Can CCX be integrated?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73fa0c5d-6d8a-430b-87d6-30b013d0b91d",
+      "data": [
+        {
+          "text": "Does it have music on hold?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34dd83b8-0cf8-464d-a48a-2b85193aca25",
+      "data": [
+        {
+          "text": "Does it support do not disturb?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c39d1380-796c-4667-983b-7c8565104daa",
+      "data": [
+        {
+          "text": "Does it have an auto-attendant?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ae5c2a5-6af3-4fb5-a117-0920621194dc",
+      "data": [
+        {
+          "text": "Does it support park?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecc925fa-4b1a-4985-8d1a-86326ba06c28",
+      "data": [
+        {
+          "text": "Does it support audio conferences?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53098b19-1fd8-4a6d-9c08-1b7ee56f7438",
+      "data": [
+        {
+          "text": "Does it support audio conferencing?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8454dea5-4bf9-4802-ab75-238e220c772c",
+      "data": [
+        {
+          "text": "Does it support conference?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9a21f8a-db59-4212-b6eb-ebfdb7c024c3",
+      "data": [
+        {
+          "text": "Does it support transfer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "292f10f3-dbad-4ca8-99eb-f6e15c6e3a44",
+      "data": [
+        {
+          "text": "Does it support single number reach?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd76b23e-002a-4377-99ed-160e88a7f390",
+      "data": [
+        {
+          "text": "Does it support video?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb0d3508-d740-46c4-94ef-46f1cb8b93c0",
+      "data": [
+        {
+          "text": "Which analog gateways are supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d71d368d-24b7-4f2a-9be7-0e3230a768bb",
+      "data": [
+        {
+          "text": "What analog gateways are supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9457f29-ad00-4575-b78f-c3af1b659aec",
+      "data": [
+        {
+          "text": "Does it integrate with Spark?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0741a71b-c16b-408b-abba-a5a90842baad",
+      "data": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "8821",
+          "alias": "phone-number",
+          "meta": "@sys.phone-number",
+          "userDefined": false
+        },
+        {
+          "text": " supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c4ab0b5-fdf8-4f3e-8a45-d0e9f289d37e",
+      "data": [
+        {
+          "text": "Is  Jabber supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50b95c4e-6b12-4077-a20d-7e4a17661148",
+      "data": [
+        {
+          "text": "What features are supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ffb4ba8-7a94-4595-8642-259e5f6d0c4c",
+      "data": [
+        {
+          "text": "What is supported and not supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa279739-8ac1-4908-8479-71e005b7cd73",
+      "data": [
+        {
+          "text": "What is not supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04e9939f-dd1f-4665-b34f-14203257e913",
+      "data": [
+        {
+          "text": "What can we expect?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b38d4bc-378b-4c22-b359-d7ae45619819",
+      "data": [
+        {
+          "text": "What is new?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d808fff6-48f3-47be-8c83-4243bb3e3723",
+      "data": [
+        {
+          "text": "What is supported?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0717839a-eeb2-4ae3-9883-10470fd8a760",
+      "data": [
+        {
+          "text": "What are the features?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb5bc52e-5e86-4e73-9d4d-e27ac9442c5b",
+      "data": [
+        {
+          "text": "List non-key features supported by "
+        },
+        {
+          "text": "BE4K",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dea4a721-6a45-4ec3-b4a8-b04c2799f36b",
+  "name": "list.features",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@Platform",
+          "name": "Platform",
+          "value": "$Platform",
+          "prompts": [
+            "Which platform are we talking about?"
+          ],
+          "isList": true
+        },
+        {
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Non-key features support for the BE4K solution:\n- Stacking/clustering BE4Ks are not recommended.\n- BE4K does not support third-party SIP phones today.\n- Video phones, DXs are not supported today. Support for 8845/65 phones is estimated for early June 2017. \n- 8821 wireless phones are on the roadmap.\n- Jabber Phone Mode is not supported today. Estimated Nov 2017.\n- No roadmap for Spark integration.\n- No roadmap for customer care via integration with UCCX/UCCE/PCCE.\n- VG202/204 analog gateways are not supported.\n- ATA190 for analog FXS line support will be supported in June/July\n- BE4k does not yet have the concept of a dial-plan and multiple trunks to route the calls in different ways. It is focused on single site needs, with a single trunk group.\nKey features supported: \nAuto-attendant, call park, hold and transfer, hunt groups, single number reach, 3-party audio conferencing, paging, intercom, do not disturb, music on hold. More features listed at: \nhttp://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-4000/datasheet-c78-738497.html"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

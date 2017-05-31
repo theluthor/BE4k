@@ -1,0 +1,39 @@
+{
+  "id": "1fe7cd50-254a-4f92-bda2-90a2cefd22ae",
+  "name": "Gveservice",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "BoM",
+      "synonyms": [
+        "BoM",
+        "quote",
+        "spec",
+        "Bill of Material",
+        "BoQ",
+        "Bill of Quantity",
+        "prelim bom",
+        "bom",
+        "Preliminary BoM",
+        "Preliminary Bill of Material",
+        "estimate"
+      ]
+    },
+    {
+      "value": "Customer Engagement",
+      "synonyms": [
+        "Customer Engagement",
+        "Opportunity Engagement"
+      ]
+    },
+    {
+      "value": "Product Information",
+      "synonyms": [
+        "Product Information",
+        "Product Info"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

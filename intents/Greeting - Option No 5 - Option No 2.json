@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "db04a0f6-cbf4-4970-bde6-65e1a6ade6ce",
+      "data": [
+        {
+          "text": "option 2"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ff51e93-b88c-4296-a4b0-5b88f99a4d21",
+      "data": [
+        {
+          "text": "2",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9e10d810-0015-4554-b649-dadf01fdef30",
+  "parentId": "d0cd0af1-c480-43b4-b281-66a63335a7b4",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting - Option No 5 - Option No 2",
+  "auto": true,
+  "contexts": [
+    "Greeting-OptionNo5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom.Greeting-OptionNo5-custom",
+      "affectedContexts": [
+        {
+          "name": "Greeting-OptionNo5-OptionNo2-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In order to schedule the meeting, i am going to need your help with information about the date, time and Deal ID number. Please say \"OK\" to continue."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

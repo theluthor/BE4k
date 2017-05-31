@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "3803deb4-d3b5-46bf-976c-6865630f8c1e",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a784f812-b494-48a2-bf65-520eeb01e390",
+  "parentId": "9fb6f17e-7e01-4b2b-982d-687dc48a0320",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "service.customer-engagement.menu.option",
+  "auto": true,
+  "contexts": [
+    "Greeting-SubOptionNo2-followup",
+    "Greeting-followup",
+    "Greeting-OptionNo5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom.Greeting-OptionNo5-custom.Greeting-SubOptionNo2-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            "When would you like to meet (date)? (service requires 48hrs lead time):"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            "At what time would you like to have the meeting?"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "DealID_num",
+          "value": "$DealID_num",
+          "prompts": [
+            "What is the Deal ID number? (if available, required for Cisco internal requesters):"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Preparing your query for a Customer Engagement service on $date at $time....."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "bd0469a5-502c-4dab-907f-bc20bca67e44",
+  "name": "Platform",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "BE4k",
+      "synonyms": [
+        "BE4k",
+        "Business Edition 4000",
+        "BE4K",
+        "BE4",
+        "BE 4k",
+        "BE4000",
+        "Be4k",
+        "be4k",
+        "be 4k",
+        "be 4000",
+        "be4000"
+      ]
+    },
+    {
+      "value": "BE6k",
+      "synonyms": [
+        "BE6k",
+        "BE6K",
+        "Business Edition 6000"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

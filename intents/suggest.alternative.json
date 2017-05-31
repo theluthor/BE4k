@@ -1,0 +1,140 @@
+{
+  "userSays": [
+    {
+      "id": "dfcd6cea-e4bd-4950-857e-77c65a285f4f",
+      "data": [
+        {
+          "text": "What is the alternative for "
+        },
+        {
+          "text": "BE4K",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3b2adfe-e830-4d3f-84d2-5f3900d5c818",
+      "data": [
+        {
+          "text": "Alternative for "
+        },
+        {
+          "text": "BE4K",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "607f84c3-b5d2-431d-a8f1-11e480fb9e96",
+      "data": [
+        {
+          "text": "Is there alternative?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a8c5cb5-1f70-4277-bddb-564fb32f5781",
+      "data": [
+        {
+          "text": "Is there anything more suitable?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "918612d6-b90b-4eea-ad72-b0f60211ca17",
+      "data": [
+        {
+          "text": "Are there better "
+        },
+        {
+          "text": "solutions",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb5b837d-a190-4b41-b69e-c671ce5f10f4",
+      "data": [
+        {
+          "text": "Is there anything better?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09ac4680-cafc-48bb-8f46-8add1335b093",
+      "data": [
+        {
+          "text": "Suggest alternatives to "
+        },
+        {
+          "text": "BE4K",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "41b86600-4ae4-45df-a6a9-9cb312374d9a",
+  "name": "suggest.alternative",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@Platform",
+          "name": "Platform",
+          "value": "$Platform",
+          "prompts": [
+            "Which platform?"
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "-For a cloud based solutions in countries where it is supported: Spark Call (https://www.ciscospark.com/products/spark-call.html)\n-For an on-premise voice focused solution based on a Cisco Integrated Services Router: Cisco Communications Manager Express (http://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-express/index.html)\n-For an on-premise full collaboration (voice/video/conferencing/edge traversal/contact center/messaging) with the option to integrate with Spark message/meet in the cloud: Cisco Business Edition 6000 (http://www.cisco.com/c/en/us/products/unified-communications/business-edition-6000/index.html)"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

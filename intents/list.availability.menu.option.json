@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "ae081e1c-1f5f-4508-bec9-1cb3564bda3d",
+      "data": [
+        {
+          "text": "option 1"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39b0d6da-b495-44bc-9ed4-1230cd7e26a5",
+      "data": [
+        {
+          "text": "1"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "0f67bb32-797c-4ebf-a34e-ce620c8cb89b",
+  "parentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "list.availability.menu.option",
+  "auto": true,
+  "contexts": [
+    "Greeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "prompts": [
+            "Which Country are you interested on check?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Checking now availability of BE4K in $geo-country  ... .. ."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

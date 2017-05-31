@@ -1,0 +1,294 @@
+{
+  "userSays": [
+    {
+      "id": "cdd919ac-5a4f-4952-af9b-71f08c4058c0",
+      "data": [
+        {
+          "text": "I need help with a "
+        },
+        {
+          "text": "customer engagement",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6f177b5-3eae-4ea3-af33-45afd071504d",
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "meet a customer",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "June 6th",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "DID",
+          "alias": "DealID_req",
+          "meta": "@DealID",
+          "userDefined": true
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "123456",
+          "alias": "DealID_num",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db09c8be-5e7f-4887-ba78-980d93e2211e",
+      "data": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "meet a customer",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": true
+        },
+        {
+          "text": " on "
+        },
+        {
+          "text": "2nd of Aug",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "noon",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Deal ID",
+          "alias": "DealID_req",
+          "meta": "@DealID",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "123456",
+          "alias": "DealID_num",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " email: "
+        },
+        {
+          "text": "test@gmail.com",
+          "alias": "Email_address",
+          "meta": "@sys.email",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "39d05dda-27d9-4666-bdea-3b0d1f12ead3",
+      "data": [
+        {
+          "text": "i need to "
+        },
+        {
+          "text": "meet a customer",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on 6th of June",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "DID",
+          "alias": "DealID_req",
+          "meta": "@DealID",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "123456",
+          "alias": "DealID_num",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a435032c-4bc7-45f7-a9dd-d60e044a4385",
+      "data": [
+        {
+          "text": "Can we schedule a call?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52545fba-a044-4dee-bc58-08a5e5229e14",
+      "data": [
+        {
+          "text": "I need help talking to a customer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4caff71d-bf94-4d9e-9af8-b034953c8c16",
+      "data": [
+        {
+          "text": "I need someone for an "
+        },
+        {
+          "text": "Opportunity Engagement",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65826fed-b136-4c47-8917-5fe7ef58ba7b",
+      "data": [
+        {
+          "text": "I need some one for "
+        },
+        {
+          "text": "Customer Engagement",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "16c2082f-4454-4481-82d9-28f9c76a37f8",
+  "name": "service.customer-engagement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Gveservice",
+          "name": "Gveservice",
+          "value": "$Gveservice",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            "When would you like to meet? (service requires 48hrs lead time):"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "prompts": [
+            "At what time would you like to have the meeting?"
+          ],
+          "isList": false
+        },
+        {
+          "dataType": "@DealID",
+          "name": "DealID_req",
+          "value": "$DealID_req",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "DealID_num",
+          "value": "$DealID_num",
+          "prompts": [
+            "What is the Deal ID number? (if available, required for Cisco internal requesters, otherwise please put 0):"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@sys.email",
+          "name": "Email_address",
+          "value": "$Email_address",
+          "prompts": [
+            "What is your email?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Preparing your query for a Customer Engagement service on $date at $time....."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

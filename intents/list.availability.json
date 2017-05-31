@@ -1,0 +1,96 @@
+{
+  "userSays": [
+    {
+      "id": "5a3b4fa3-f2ea-4645-9ada-4b3b8d248a96",
+      "data": [
+        {
+          "text": "i need to know availability"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "571d05ab-fe85-43f7-8802-5b87a2a12103",
+      "data": [
+        {
+          "text": "Check availability"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73d7976d-3919-4091-9aba-8239cd4b916f",
+      "data": [
+        {
+          "text": "where can i buy it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d2ac2828-0b87-4188-8c49-f7c414514fee",
+      "data": [
+        {
+          "text": "where is it orderable?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e9f3d57-62d8-4a59-8833-9f4269f8f9a4",
+      "data": [
+        {
+          "text": "availability in "
+        },
+        {
+          "text": "Colombia",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "376c72d0-5214-42c5-b16d-ec0e9063943b",
+  "name": "list.availability",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "prompts": [
+            "In which Country are you interested?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Checking now availability of BE4K in $geo-country"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

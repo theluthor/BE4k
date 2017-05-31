@@ -1,0 +1,29 @@
+{
+  "id": "98c750d8-1583-42b1-8f59-d606635b459a",
+  "name": "interface",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "FXS",
+      "synonyms": [
+        "FXS"
+      ]
+    },
+    {
+      "value": "PSTN",
+      "synonyms": [
+        "PSTN",
+        "E1",
+        "T1"
+      ]
+    },
+    {
+      "value": "PRI",
+      "synonyms": [
+        "PRI"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

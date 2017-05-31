@@ -1,0 +1,64 @@
+{
+  "userSays": [
+    {
+      "id": "8d8e83f3-c29e-4ab1-a99a-62ddd0231852",
+      "data": [
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6e90ae5c-ba9d-45fa-9b2e-899ac5c59c0e",
+      "data": [
+        {
+          "text": "option "
+        },
+        {
+          "text": "1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2528af50-b76a-4800-a16c-3fec99bce7fa",
+  "parentId": "d0cd0af1-c480-43b4-b281-66a63335a7b4",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting - Option No 5 - Option No 1",
+  "auto": true,
+  "contexts": [
+    "Greeting-OptionNo5-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom.Greeting-OptionNo5-custom",
+      "affectedContexts": [
+        {
+          "name": "Greeting-OptionNo5-OptionNo1-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In order to built the BoM, i am going to need your help with information about the number of FXS ports, number of PSTN ports, phone model and number of phones required. Please say \"Yes\" to continue."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

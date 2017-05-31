@@ -1,0 +1,19 @@
+{
+  "id": "ab4c75e7-8f25-467c-8f3e-15737610f18f",
+  "name": "DealID",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Deal ID",
+      "synonyms": [
+        "Deal ID",
+        "DID",
+        "Opportunity number",
+        "SFDC",
+        "SFDC code"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

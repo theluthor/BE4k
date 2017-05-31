@@ -1,0 +1,51 @@
+{
+  "id": "ad16d141-6eba-47ed-9d9a-29207a9d4cb5",
+  "name": "Phones",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "7811",
+      "synonyms": [
+        "7811"
+      ]
+    },
+    {
+      "value": "7821",
+      "synonyms": [
+        "7821"
+      ]
+    },
+    {
+      "value": "7841",
+      "synonyms": [
+        "7841"
+      ]
+    },
+    {
+      "value": "8811",
+      "synonyms": [
+        "8811"
+      ]
+    },
+    {
+      "value": "8841",
+      "synonyms": [
+        "8841"
+      ]
+    },
+    {
+      "value": "8861",
+      "synonyms": [
+        "8861"
+      ]
+    },
+    {
+      "value": "phones",
+      "synonyms": [
+        "phones"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "d70d525e-2b40-4c29-b288-db9034d58ed5",
+      "data": [
+        {
+          "text": "option 5"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bc8099d-93e9-44e0-acdc-c62223698b8f",
+      "data": [
+        {
+          "text": "5",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d0cd0af1-c480-43b4-b281-66a63335a7b4",
+  "parentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting - Option No 5 - list.services",
+  "auto": true,
+  "contexts": [
+    "Greeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom",
+      "affectedContexts": [
+        {
+          "name": "Greeting-OptionNo5-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "What type of service would you like?\n1. Preliminary BoM\n2. Customer/Opportunity Engagement"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

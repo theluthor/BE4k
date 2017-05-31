@@ -1,0 +1,113 @@
+{
+  "userSays": [
+    {
+      "id": "bae19636-144c-47cd-b1bf-661ed6e9c23e",
+      "data": [
+        {
+          "text": "/menu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b01a37a9-0d71-4472-b012-4a2820469634",
+      "data": [
+        {
+          "text": "menu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ea382cfc-4ebf-409d-b947-07c1227dcca1",
+      "data": [
+        {
+          "text": "Hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0f8e8413-e405-47aa-b104-746176a56159",
+      "data": [
+        {
+          "text": "/help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fad5a25-78d3-4ca7-a232-8c7ab6cacc93",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2368170b-9064-4214-857f-cdada4581ae4",
+      "data": [
+        {
+          "text": "Hi bot, who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a43ec2be-cf44-4148-bd46-b85066808e90",
+      "data": [
+        {
+          "text": "who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5766fc69-7654-476b-aa9b-c5a4cef6dc47",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting",
+      "affectedContexts": [
+        {
+          "name": "Greeting-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m here to help you get stuff done with BE4K related opportunities. Type a number from below or you can also ask your question free form and I\u0027ll do my best to answer:\n\n1. Check Availability of BE4K in your country.\n2. List non-key features supported and not supported by BE4K\n3. Provide a link to BE4K Frequently Asked Questions \n4. Suggest alternatives to BE4K. \n5. Obtain additional pre-sales support from GVE."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

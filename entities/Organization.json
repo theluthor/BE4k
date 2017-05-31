@@ -1,0 +1,37 @@
+{
+  "id": "c3627074-4f2f-424d-8ffe-307a2c23ada4",
+  "name": "Organization",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "BU",
+      "synonyms": [
+        "BU",
+        "Business Unit",
+        "R\u0026D",
+        "Research and Develpment"
+      ]
+    },
+    {
+      "value": "GVE",
+      "synonyms": [
+        "GVE",
+        "Global Virtual Engineering",
+        "Inside Sale",
+        "TSN",
+        "pre-sale",
+        "pre sale",
+        "gve"
+      ]
+    },
+    {
+      "value": "TAC",
+      "synonyms": [
+        "TAC",
+        "Technical Support"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

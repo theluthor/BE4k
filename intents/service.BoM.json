@@ -1,0 +1,415 @@
+{
+  "userSays": [
+    {
+      "id": "7e4df33e-1046-43ab-993a-f49bb3ff14c0",
+      "data": [
+        {
+          "text": "I want to have a quote for "
+        },
+        {
+          "text": "30",
+          "alias": "nAmount_Phones",
+          "meta": "@sys.number-integer",
+          "userDefined": true
+        },
+        {
+          "text": " phones and "
+        },
+        {
+          "text": "3",
+          "alias": "nPSTN_ports",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "PRI",
+          "alias": "PSTN_interface1",
+          "meta": "@interface",
+          "userDefined": true
+        },
+        {
+          "text": " ports"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08877682-e3db-43f8-85e0-b4c790a4c893",
+      "data": [
+        {
+          "text": "Please help me creating an "
+        },
+        {
+          "text": "Estimate",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f618bad-af0f-4eed-ac4c-f5903e50b645",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "BoM",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "BE4k",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": true
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "4",
+          "alias": "nFXS_ports",
+          "meta": "@sys.number",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "FXS",
+          "alias": "FXS_interface",
+          "meta": "@interface",
+          "userDefined": false
+        },
+        {
+          "text": " ports, "
+        },
+        {
+          "text": "2",
+          "alias": "nPSTN_ports",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "PSTN",
+          "alias": "PSTN_interface1",
+          "meta": "@interface",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "E1",
+          "alias": "PSTN_interface2",
+          "meta": "@interface",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "20",
+          "alias": "nAmount_Phones",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "phones",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "7811",
+          "alias": "Model_Phones1",
+          "meta": "@Phones",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d0c4a3d-2eeb-4180-bec7-93106e408600",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "quote",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Be4k",
+          "alias": "Platform",
+          "meta": "@Platform",
+          "userDefined": true
+        },
+        {
+          "text": " with "
+        },
+        {
+          "text": "4",
+          "alias": "nFXS_ports",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "FXS",
+          "alias": "FXS_interface",
+          "meta": "@interface",
+          "userDefined": false
+        },
+        {
+          "text": " ports and "
+        },
+        {
+          "text": "2",
+          "alias": "nPSTN_ports",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "PSTN",
+          "alias": "PSTN_interface1",
+          "meta": "@interface",
+          "userDefined": false
+        },
+        {
+          "text": " ports, "
+        },
+        {
+          "text": "7811",
+          "alias": "Model_Phones1",
+          "meta": "@Phones",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "phones",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " quantity of "
+        },
+        {
+          "text": "20",
+          "alias": "nAmount_Phones",
+          "meta": "@sys.number-integer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "f423aed9-3a43-41eb-8a52-2a7f0403a250",
+      "data": [
+        {
+          "text": "I would like to have assistance with creating a "
+        },
+        {
+          "text": "Bill of Material",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6857875-affe-47f5-a4b6-f9d88c31635e",
+      "data": [
+        {
+          "text": "I need help with "
+        },
+        {
+          "text": "BoM",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8201fca8-ba25-4155-86ce-29a6f0554531",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "quote",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30c7ec62-0c15-43b8-b88c-5727823ee1d8",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "BoM",
+          "alias": "Gveservice",
+          "meta": "@Gveservice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "13d74593-454a-404f-971c-deb7710bf38e",
+  "name": "service.BoM",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Gveservice",
+          "name": "Gveservice",
+          "value": "$Gveservice",
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@Platform",
+          "name": "Platform",
+          "value": "$Platform",
+          "prompts": [
+            "For which platform are we building a solution?",
+            "What is the chosen platform?"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@interface",
+          "name": "FXS_interface",
+          "value": "$FXS_interface.original",
+          "prompts": [
+            "How many FXS ports do you need?",
+            "Would you need FXS ports? If so, how many?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "nFXS_ports",
+          "value": "$nFXS_ports",
+          "prompts": [
+            "How many FXS ports do you need?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "nPSTN_ports",
+          "value": "$nPSTN_ports",
+          "prompts": [
+            "How many PSTN (E1/T1) ports?"
+          ]
+        },
+        {
+          "required": false,
+          "dataType": "@interface",
+          "name": "PSTN_interface1",
+          "value": "$PSTN_interface1",
+          "prompts": [
+            "Will you need PSTN integration? How many ports?",
+            "How many PSTN ports would you need?"
+          ],
+          "isList": false
+        },
+        {
+          "required": false,
+          "dataType": "@interface",
+          "name": "PSTN_interface2",
+          "value": "$PSTN_interface2",
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@Phones",
+          "name": "Model_Phones1",
+          "value": "$Model_Phones1",
+          "prompts": [
+            "Which phone model?"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "nAmount_Phones",
+          "value": "$nAmount_Phones",
+          "prompts": [
+            "How many phones would you need?"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Lets summarize: we will create a bill of materials for $Platform with $nFXS_ports FXS ports and $nPSTN_ports $PSTN_interface2 PSTN ports. The offer will be for $nAmount_Phones of $Model_Phones1 Cisco IP Phones."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

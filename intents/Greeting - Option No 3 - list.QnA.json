@@ -1,0 +1,58 @@
+{
+  "userSays": [
+    {
+      "id": "17524050-2738-4de3-a568-e8035f456adb",
+      "data": [
+        {
+          "text": "3",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10592364-c8c2-4492-ae0c-bffed37e801f",
+      "data": [
+        {
+          "text": "option "
+        },
+        {
+          "text": "3",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "34b45011-9901-4a84-9fab-fcd28a913909",
+  "parentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "rootParentId": "692a1693-d293-4ce8-ab0a-d764f4cfcaef",
+  "name": "Greeting - Option No 3 - list.QnA",
+  "auto": true,
+  "contexts": [
+    "Greeting-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greeting.Greeting-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "FAQ Guide:\nhttp://www.cisco.com/c/dam/en/us/products/collateral/unified-communications/business-edition-4000/q-and-a-c67-738110.pdf \n\nOrdering Guide:\nhttp://www.cisco.com/c/en/us/products/collateral/unified-communications/business-edition-4000/guide-c07-738910.pdf \n\nInternal site:\nhttps://cisco.jiveon.com/docs/DOC-1607429"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
