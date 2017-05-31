@@ -25,6 +25,6 @@ In the first stage the Bot is providing following information:
     
     1.2 In case you are not alone with the Bot, you will need to address the Bot every time you are asking it something. It         is shy... Use @BE4K to address the Bot.
     
-    2. Start the conversation, have a small talk, ask the Bot how it is feeling... When you are ready, use "help" to see            what it can do.
+2. Start the conversation, have a small talk, ask the Bot how it is feeling... When you are ready, use "help" to see            what it can do.
     
     
