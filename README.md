@@ -20,8 +20,11 @@ In the first stage the Bot is providing following information:
     
 ###### Instructions for the User ######
 1. add the Bot on Cisco Spark to one of the rooms where you wish to have the conversation:  BE4K@sparkbot.io
+
     1.1 In case it is a 1:1 room feel free talking to the Bot
+    
     1.2 In case you are not alone with the Bot, you will need to address the Bot every time you are asking it something. It         is shy... Use @BE4K to address the Bot.
+    
     2. Start the conversation, have a small talk, ask the Bot how it is feeling... When you are ready, use "help" to see            what it can do.
     
     
