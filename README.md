@@ -5,7 +5,8 @@ The BE4K Bot was conceived to assist Cisco and Partner sales teams in positionin
 Built using the API.AI platform for up front NLP of queries and Webhook calls into built.io for fulfillment of the more complex tasks using node.js, the BE4K bot can easily be extended to cover more queries and back-end notifications to to guarantee it is providing the most accurate and up to date information.
 
 ###### Scope of the repository #######
-The files with the JSON are made to be imported in API.ai. This is a live script that can be used to create an agent that captures the informaiton from the requester. The interface is Cisco Spark. BE4K bot can be added to any room or used directly in 1:1 space. 
+The files with the JSON are made to be imported in API.ai. This is a live script that can be used to create an agent that captures the informaiton from the requester through Cisco Spark. BE4K bot can be added to any room or used directly in 1:1 space. 
+Node.JS script is complementary to enable some of the actions on the side of the agent since the NLP platform lacks that functional.
 
 In the first stage the Bot is providing following information:
 1. Availability of the BE4000 platform around the world. It has most of the countries, definitely the one where the bot is available as of May 2017. 
